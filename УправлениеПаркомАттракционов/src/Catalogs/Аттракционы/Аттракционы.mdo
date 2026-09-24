@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c335590-2303-40e0-a4b9-a7ecf9931447">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c335590-2303-40e0-a4b9-a7ecf9931447">
   <producedTypes>
     <objectType typeId="8082e6c0-422b-4f08-87ee-3cb1d3c9b44a" valueTypeId="193811b9-a68d-4aad-8124-578a6c743cf1"/>
     <refType typeId="68dc24d5-c4cd-465c-806e-5dc56091f219" valueTypeId="0133b96f-270a-493e-aec7-5fa1efe3cabf"/>
@@ -33,5 +33,21 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="39e00d87-da64-4c63-bff9-d070f36e733d">
+    <name>ВидАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аттракциона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАттракционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
